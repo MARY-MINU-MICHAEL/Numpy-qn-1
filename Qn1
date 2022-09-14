@@ -1,0 +1,6 @@
+import numpy as np
+Array = np.empty([4,2],dtype=np.uint16) 
+print(Array)
+print("Printing numpy array Attributes")
+print("1. Array Shape is: ",Array.shape)
+print("2. Array dimensions are ", Array.ndim)
